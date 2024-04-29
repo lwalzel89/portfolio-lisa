@@ -25,26 +25,115 @@
       src="https://kit.fontawesome.com/5f27eda312.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta
+      name="description"
+      content="Contact Lisa, a front-end developer based in Austria"
+    />
+    <title>Contact Lisa</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo" />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Lisa">About</a></li>
+          <li><a href="/work.html" title="Lisa's work">Work</a></li>
+          <li class="active">
+            <a href="/contact.html" title="Contact Lisa">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Let's get in touch!</h1>
         <h3>Email</h3>
-        <a href="mailto:lisa.walzel@hotmail.com" target="_blank">
+        <a
+          href="mailto:lisa.walzel@hotmail.com"
+          target="_blank"
+          title="E-Mail Lisa"
+        >
           <p>lisa.walzel@hotmail.com</p></a
         >
         <h3>Instagram</h3>
-        <a href="" target="_blank"> <p>@lisa.codes</p></a>
+        <a
+          href="https://www.instagram.com/yo.soy_lisa/"
+          target="_blank"
+          title="Instagram profile"
+        >
+          <p>@yo.soy_lisa</p></a
+        >
         <h3>LinkedIn</h3>
         <a
           href="https://www.linkedin.com/in/lisa-walzel-a0126b77/"
           target="_blank"
+          title="LinkedIn profile"
         >
           <p>@Lisa Walzel</p></a
         >
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact me"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:lisa.walzel@hotmail.com"
+          class="email-link"
+          title="Email Lisa"
+          >lisa.walzel@hotmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/yo.soy_lisa/"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/lwalzel89"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/lisa-walzel-a0126b77/"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by 👩🏻‍💻 Lisa, and it is
+        <a href="https://github.com/lwalzel89/portfolio-lisa" target="_blank">
+          open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>

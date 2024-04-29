@@ -25,34 +25,73 @@
       src="https://kit.fontawesome.com/5f27eda312.js"
       crossorigin="anonymous"
     ></script>
-    <title>Document</title>
+    <meta name="description" content="Check out Lisa's projects." />
+    <title>Lisa's projects</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes Logo" />
+          <img
+            src="images/logo-small.jpeg"
+            class="logo d-block d-md-none"
+            alt="SheCodes Logo"
+        /></a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Lisa">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Lisa's work">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact Lisa">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
         <div class="row">
           <div class="col-md-6 mb-4">
-            <img src="images/yogurt.png" class="img-fluid mb-3 rounded" />
+            <img
+              src="images/yogurt.png"
+              class="img-fluid mb-3 rounded"
+              alt="Yogurt project preview"
+            />
             <h3 class="text-center m-0">Yogurt Project</h3>
             <p class="text-center text-muted">Built with HTML & CSS</p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/weatherapp.png" class="img-fluid mb-3 rounded" />
+            <img
+              src="images/weatherapp.png"
+              class="img-fluid mb-3 rounded"
+              alt="Weather App preview"
+            />
             <h3 class="text-center m-0">Weather App Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS & JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/dictionary.png" class="img-fluid mb-3 rounded" />
+            <img
+              src="images/dictionary.png"
+              class="img-fluid mb-3 rounded"
+              alt="Dictionary project preview"
+            />
             <h3 class="text-center m-0">Dictionary Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS & JavaScript
             </p>
           </div>
           <div class="col-md-6 mb-4">
-            <img src="images/translation.png" class="img-fluid mb-3 rounded" />
+            <img
+              src="images/translation.png"
+              class="img-fluid mb-3 rounded"
+              alt="Translation App preview"
+            />
             <h3 class="text-center m-0">Translation App Project</h3>
             <p class="text-center text-muted">
               Built with HTML, CSS & JavaScript
@@ -61,5 +100,57 @@
         </div>
       </div>
     </div>
+    <footer class="container">
+      <div
+        class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+      >
+        <div>
+          <h3>Work inquiry</h3>
+          <p class="text-muted">Let's work together!</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact me"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:lisa.walzel@hotmail.com"
+          class="email-link"
+          title="Email Lisa"
+          >lisa.walzel@hotmail.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.instagram.com/yo.soy_lisa/"
+          target="_blank"
+          title="Instagram Profile"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a
+          href="https://github.com/lwalzel89"
+          target="_blank"
+          title="GitHub Profile"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/lisa-walzel-a0126b77/"
+          target="_blank"
+          title="LinkedIn Profile"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by 👩🏻‍💻 Lisa, and it is
+        <a href="https://github.com/lwalzel89/portfolio-lisa" target="_blank">
+          open-sourced</a
+        >.
+      </p>
+    </footer>
   </body>
 </html>
